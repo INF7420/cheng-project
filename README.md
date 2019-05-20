@@ -27,8 +27,8 @@ The last page is Contact US which connects customer and the company.
 
 There are five wireframes as listed.
 
-! [wireframes of a landing page ] (wireframes/wireframe-1of5.jpg)
-! [wireframes of a landing page ] (wireframes/wireframe-2of5.jpg)
-! [wireframes of a landing page ] (wireframes/wireframe-3of5.jpg)
-! [wireframes of a landing page ] (wireframes/wireframe-4of5.jpg)
-! [wireframes of a landing page ] (wireframes/wireframe-5of5.jpg)
+! [wireframes of a landing page ](wireframes/wireframe-1of5.JPG)
+! [wireframes of a landing page ](wireframes/wireframe-2of5.JPG)
+! [wireframes of a landing page ](wireframes/wireframe-3of5.JPG)
+! [wireframes of a landing page ](wireframes/wireframe-4of5.JPG)
+! [wireframes of a landing page ](wireframes/wireframe-5of5.JPG)
