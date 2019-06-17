@@ -1,0 +1,331 @@
+h1 {
+    font-size: large;
+    font-size: 100%;
+
+######2
+}
+
+section  b {
+    color: blueviolet;
+}
+only section b with the selected color 
+
+section > b, div > b {
+    color: blueviolet;
+}
+with a comma, we can select other elements
+
+##### 3  class 
+HTML 
+  <main>
+            <section class="box">
+                <h3>When should we use classes?</h3>
+                <p>Here are <b>two</b> rules of thumb</p>
+createa a class in the < section >  HTML 
+
+CSS 
+.box {
+    border: 2px solid;
+    background-color: white;
+}
+
+   <main>
+            <section class="box">
+                <h3>When should we use classes?</h3>
+                <p>Here are <b>two</b> rules of thumb</p>
+                <ul class="box">
+
+    apply class box to ul as well       
+
+
+
+       .box {
+    border: 2px solid;
+    background-color: white;
+}
+#classes {
+    color: slateblue;
+}
+#ids {
+    color: tomato;
+}
+source: class and ID    
+
+***HTML 
+  <body>
+        <header>
+            <h1 class="white">Classes & IDs</h1>
+        </header>
+        <main>
+            <section class="box" id="classes">
+                <h3>When should we use classes?</h3>
+                <p>Here are <b>two</b> rules of thumb</p>
+                <ul >
+                    <li>When you <b>want to</b> apply the same style to multiple elements</li>
+                    <li>But <b>not all elements</b> of the same name</li>
+                </ul>
+                <p>A class can be used on <b>multiple elements</b>, and an element can have <b>multiple classes</b></p>
+            </section>
+            <section class="box" id="ids">
+
+***CSS 
+            .box {
+    border: 2px solid;
+    background-color: white;
+}
+#classes {
+    color: slateblue;
+}
+#ids {
+    color: tom
+}
+
+
+another example on child ....
+.box {
+    border: 2px solid;
+    background-color: white;
+}
+#classes {
+    color: slateblue;
+}
+#ids {
+    color: tomato;
+}
+#classes > P > b, #ids li > b {
+    
+}
+
+******specificity 
+
+id is the highest 
+
+
+#id {
+    background-color: blueviolet;
+}
+html .class {
+    background-color: tomato;
+}
+.class {
+    background-color: goldenrod;
+}
+html body {
+    background-color: aqua;
+}
+body {
+    background-color: goldenrod;
+}
+
+
+
+**** inline
+#inline * {
+    width: 200px;
+    height: 100px;
+}
+#block * {
+    width: 200px;
+    height: 200px;
+}
+
+*****attempt
+
+
+.main-menu { 
+background: rgb(16, 36, 211);
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: .2em .7em;
+  }
+  
+  nav a {
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-decoration: none;
+    font-family: Ubuntu;
+    font-size: 1.15em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    transition: .25s ease-in-out
+
+}    margin: 0;
+    padding: .2em 2em;
+    float: right;
+  }
+  
+  nav ul li {
+    display: inline-block;
+
+
+}
+
+from previous 
+
+
+
+}
+
+body {
+    background-color: rgb(142, 180, 70);
+    font-family: Arial, Helvetica, sans-serif
+
+}
+
+.main-menu {
+    border: 2px solid;
+    background-color: rgb(37, 206, 183);
+    justify-content: left;
+    max-width: 1200 px;
+    margin: auto ;
+
+}
+
+
+#a { color: rgb(177, 46, 46)
+
+
+}
+
+img {
+max-width: 200;
+
+}
+
+address {
+
+   font-style: normal
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+
+
+  .headerA 
+  {
+   
+    width: 980px;
+    margin:0px;
+    padding: 0px;
+    height: 100px; 
+    position: fixed;
+  background-color: blue;
+}
+
+
+logo {
+	position: relative;
+	margin: 22px 0px 0px 34px;
+	float: right;
+}
+
+
+li {
+
+list-style: none;
+float: left;
+
+}
+
+.prime1-nav
+{
+float: right;
+color: rgb(25, 201, 77);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 200%;
+margin-right: 10%;
+display: inline;
+list-style-position: outside;
+list-style-type: none;
+padding: 10px;
+
+
+}
+
+}
+
+.home
+{
+color: rgb(94, 74, 91);
+display: inline;
+list-style-type: none;
+
+}
+
+&&&
+
+
+}
+
+.prime1-nav
+{
+float: right;
+color: rgb(191, 194, 21);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 200%;
+margin-right: 10%;
+display: inline;
+list-style-position: outside;
+list-style-type: none;
+padding: 10px;
+
+.home
+{
+color: rgb(94, 74, 91);
+display: inline;
+list-style-type: none;
+
+}
+
+
+.LiMenu {
+  display: inline;
+  font-size: 300;
+}
+
+
+
+.picA {
+  height: 0px;
+  margin-bottom: 0;
+  width: 0%;
+  
+
+  
+}
+
+
+/#.picMain {
+  
+  width: 400px;
+  height: 300px;
+  padding: 0px;
+  margin-top: 0%;
+  margin-bottom: 10 ;
+  margin-left: 0%;
+  margin-right:10  ;
+}
+
+
+/#.mainDiv2 {
+  width: 400px;
+  height: 300px;
+  margin-top: -15%;
+  margin-bottom: 10 ;
+  margin-left: 0%;
+  margin-right:10  ;
+color: dodgerblue;
+display: inline;
+font-size: 30px;
+float: right;
+}
+
+.HomeMainMenu {
+  
+}
