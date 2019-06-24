@@ -1,123 +1,80 @@
-
-                      /*home.html */
+/*home.html */
 /*header */
-.headerA {
-  
-
-border: 2px solid;
-background-color: rgb(197, 25, 62);
-justify-content: right;
-max-width: 1200 px;
-width: 1600px
-margin: auto;
-list-style: none;
-top: 0%;
-position: fixed;
-float: right;
-display: inline;
-size: 10000px
-height: 10px;
-
-width: 100%;
-  
-
-
+header {
+  border: 2px solid;
+  background-color: rgb(197, 25, 62);
+  max-width: 1200px;
+  margin: auto;
 }
 
 .picA {
   width: 40px;
   height: 30px;
-  padding: 0px;
 }
-
 
 .LiMenu {
   display: block;
   font-size: 20px;
   float: right;
-  padding: 0px;
-  width: 12%
-  }
-
+  width: 12%;
+}
 
 /*main*/
 .main {
-background-color: lightsalmon;
-width: 1600px;
-height: 600px;
-
+  background-color: lightsalmon;
+  width: 1600px;
+  height: 600px;
 }
 
-
 .mainDiv1 {
-  width: 1000px;
-  height: 1000px;
-  margin-top: -100px;
-  margin-bottom: 0 ;
   margin-left: 0;
-  margin-right:10  ;
-color: rgb(214, 36, 119);
-display: inline;
-font-size: 10px;
-
+  margin-right: 10;
+  color: rgb(214, 36, 119);
+  display: inline;
+  font-size: 10px;
 }
 
 .picMain {
-  
   width: 400px;
   height: 300px;
   padding: 0px;
   margin-top: 0%;
   margin-bottom: 10;
   margin-left: 0%;
-  margin-right:10  ;
+  margin-right: 10;
 }
 
-
 .mainDiv2 {
-  width: 400px;
-  height: 300px;
-  
   margin-left: 10%;
- margin-right: 20%;
- margin-bottom: 20%;
-color: dodgerblue;
-display: inline;
-font-size: 30px;
-float: right;
+  margin-right: 20%;
+  color: dodgerblue;
+  display: inline;
+  font-size: 30px;
 }
 
 .HomeMainMenu {
   list-style: none;
   display: inline;
   font-size: 30px;
- float: right;
   padding: 0px;
-  width: 19%;
-  margin-top: 30%
-  margin-bottom: 20%;
 }
-
 
 /*footer*/
 .footer {
-
-background-color: rgb(18, 224, 97);
-color: rgb(51, 25, 202);
-width: 1600px;
-height: 300px;
-bottom: 0;
+  background-color: rgb(18, 224, 97);
+  color: rgb(51, 25, 202);
+  width: 1600px;
+  height: 300px;
+  bottom: 0;
 }
 
-
 .footerPictA {
-width: 100px;
-height: 180px;
-padding: 0px;
+  width: 100px;
+  height: 180px;
+  padding: 0px;
 }
 
 .footerClassProf {
-  
   list-style: none;
   display: inline;
   font-size: 15px;
@@ -126,71 +83,56 @@ padding: 0px;
   vertical-align: middle;
 }
 
-
-
-
 .footerClassTerm {
   color: rgb(199, 156, 37);
-  font-family:  'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   display: inline;
   font-size: 10px;
-float: right;
-margin-left: 20%;
-margin-right: 2%;
-  }
-
-
-
-.footerCTK {
-color: rgb(209, 28, 59);
-font-family:  'Times New Roman', Times, serif;
-font-size: 10px;
-float: right;
-margin-left: 20%;
-margin-right: 2%;
+  margin-left: 20%;
+  margin-right: 2%;
 }
 
+.footerCTK {
+  color: rgb(209, 28, 59);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 10px;
+  float: right;
+  margin-left: 20%;
+  margin-right: 2%;
+}
 
-                             /*about-us.html */
-.aboutUShomePageMktg
- {
-color: blueviolet;
-
+/*about-us.html */
+.aboutUShomePageMktg {
+  color: blueviolet;
 }
 
 .AboutUsHead {
-background-color: darksalmon
-color: darkgreen;
-font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: small
-
+  background-color: darksalmon;
+  color: darkgreen;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: small;
 }
 
-                              /*claims.html */
+/*claims.html */
 .claimHead {
   color: brown;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 20%;
-
 }
 
 .claimsContact {
   display: inline-block;
-color: aqua;
-font-family: 'Times New Roman', Times, serif;
-font-size: 100%;
-break-inside: auto;
-width: 200px;
-overflow: hidden;
-
+  color: aqua;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 100%;
+  break-inside: auto;
+  width: 200px;
+  overflow: hidden;
 }
 
-
-                              /*spcialist-area.html */
+/*spcialist-area.html */
 .specialistMain {
-color: blueviolet;
-font-family: 'Times New Roman', Times, serif;
-font-size: 36%;
-
+  color: blueviolet;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 36%;
 }
-
