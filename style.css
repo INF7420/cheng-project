@@ -3,7 +3,7 @@
 header {
   border: 2px solid;
   background-color: rgb(197, 25, 62);
-  max-width: 1200px;
+  max-width: 1600px;
   margin: auto;
 }
 
@@ -23,6 +23,7 @@ header {
 .main {
   background-color: lightsalmon;
   width: 1600px;
+  max-width: 1600px;
   height: 600px;
 }
 
@@ -141,7 +142,6 @@ label {
 display: block;
 font-weight: 700;
 margin-bottom: 0.5em;
-
 }
 
 .form-input {
@@ -198,7 +198,5 @@ margin: -1em 0 1.5em;
       width: 50%;
       margin: 3em auto;
     }
-
-
   }
 
