@@ -1,3 +1,7 @@
+.wrapper {
+  min-height: calc(100vh - 300px);
+  background: lightsalmon;
+}
 /*home.html */
 /*header */
 header {
@@ -5,6 +9,11 @@ header {
   background-color: rgb(197, 25, 62);
   max-width: 1600px;
   margin: auto;
+}
+
+.headerA ul {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .picA {
@@ -21,36 +30,34 @@ header {
 
 /*main*/
 .main {
-  background-color: lightsalmon;
-  width: 1600px;
   max-width: 1600px;
-  height: 600px;
+}
+
+.main-wrapper {
+  display: flex;
+  max-width: 960px;
+  margin: 2em auto;
 }
 
 .mainDiv1 {
-  margin-left: 0;
-  margin-right: 10;
   color: rgb(214, 36, 119);
-  display: inline;
   font-size: 10px;
 }
 
 .picMain {
   width: 400px;
   height: 300px;
-  padding: 0px;
-  margin-top: 0%;
-  margin-bottom: 10;
-  margin-left: 0%;
-  margin-right: 10;
+  margin: 30px;
 }
 
 .mainDiv2 {
-  margin-left: 10%;
-  margin-right: 20%;
   color: dodgerblue;
-  display: inline;
   font-size: 30px;
+  margin: 60px 90px;
+}
+
+.home-links {
+  text-align: center;
 }
 
 .HomeMainMenu {
@@ -64,7 +71,6 @@ header {
 .footer {
   background-color: rgb(18, 224, 97);
   color: rgb(51, 25, 202);
-  width: 1600px;
   height: 300px;
   bottom: 0;
 }
