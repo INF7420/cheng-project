@@ -1,13 +1,15 @@
+
 .wrapper {
   min-height: calc(100vh - 300px);
-  background: lightsalmon;
+  background:#b99a9a ;
+ 
 }
 /*home.html */
 /*header */
 header {
   border: 2px solid;
-  background-color: rgb(197, 25, 62);
-  max-width: 1600px;
+  max-width: 1200px;
+  background-color: #d1dac0;
   margin: auto;
 }
 
@@ -17,8 +19,8 @@ header {
 }
 
 .picA {
-  width: 40px;
-  height: 30px;
+  width: 20%
+  height: 20%
 }
 
 .LiMenu {
@@ -29,18 +31,16 @@ header {
 }
 
 /*main*/
-.main {
-  max-width: 1600px;
-}
 
 .main-wrapper {
   display: flex;
   max-width: 960px;
   margin: 2em auto;
+  
 }
 
 .mainDiv1 {
-  color: rgb(214, 36, 119);
+  color: #d8dac8;
   font-size: 10px;
 }
 
@@ -51,7 +51,15 @@ header {
 }
 
 .mainDiv2 {
-  color: dodgerblue;
+  display: inline;
+  width: 454px;
+  height: 280px;
+  margin: 30px;
+  padding-top: 61.67%
+}
+
+.mainDiv2 {
+  color: #002f51;
   font-size: 30px;
   margin: 60px 90px;
 }
@@ -69,17 +77,27 @@ header {
 
 /*footer*/
 .footer {
-  background-color: rgb(18, 224, 97);
-  color: rgb(51, 25, 202);
+  background-color:#b5d8c3;
+  color: #2B2249;
   height: 300px;
   bottom: 0;
 }
 
 .footerPictA {
-  width: 100px;
-  height: 180px;
+  width: 200px;
+  height: 300px;
   padding: 0px;
+  
 }
+
+.ourPartner {
+  background-color: #b5d8c3;
+}
+
+.ourTeam {
+  color: #b7aec0;
+  
+  }
 
 .footerClassProf {
   list-style: none;
@@ -91,7 +109,7 @@ header {
 }
 
 .footerClassTerm {
-  color: rgb(199, 156, 37);
+  color: #292929;
   font-family: "Times New Roman", Times, serif;
   display: inline;
   font-size: 10px;
@@ -100,9 +118,9 @@ header {
 }
 
 .footerCTK {
-  color: rgb(209, 28, 59);
+  color:   #570b0b;
   font-family: "Times New Roman", Times, serif;
-  font-size: 10px;
+  font-size: 20px;
   float: right;
   margin-left: 20%;
   margin-right: 2%;
@@ -110,7 +128,7 @@ header {
 
 /*about-us.html */
 .aboutUShomePageMktg {
-  color: blueviolet;
+  color: #b7aec0;
 }
 
 .AboutUsHead {
@@ -122,14 +140,14 @@ header {
 
 /*claims.html */
 .claimHead {
-  color: brown;
+  color: #a52a2a;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 20%;
 }
 
 .claimsContact {
   display: inline-block;
-  color: aqua;
+  color: #89b1b1;
   font-family: "Times New Roman", Times, serif;
   font-size: 100%;
   break-inside: auto;
@@ -139,7 +157,7 @@ header {
 
 /*spcialist-area.html */
 .specialistMain {
-  color: blueviolet;
+  color: #8a2be2;
   font-family: "Times New Roman", Times, serif;
   font-size: 36%;
 }
@@ -168,7 +186,7 @@ width: 70%;
   [type="submit" ] { 
     background: #c45d7c;
     color: aqua;
-    width: 70%;
+    width: 77%;
     font-size: 1.0em;
     font-weight: 500;
     text-transform: uppercase;
@@ -190,7 +208,7 @@ width: 70%;
   }
 
 .error {
-  border-color: aquamarine;
+  border-color: #7fffd4;
 }
 
 .error-message{
@@ -205,4 +223,3 @@ margin: -1em 0 1.5em;
       margin: 3em auto;
     }
   }
-
