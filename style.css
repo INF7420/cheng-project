@@ -54,7 +54,6 @@ flex-wrap: wrap;
 
 .picMain {
   width: 454px;
-  height: 280px;
   margin: 30px;
   image-resolution: 60px;
 
@@ -62,7 +61,7 @@ flex-wrap: wrap;
 
 .mainDiv2 {
   width: 454px;
-  height: 280px;
+  /*height: 280px;*/
   margin: 30px;
 }
 
@@ -91,13 +90,13 @@ flex-wrap: wrap;
   bottom: 0;
 }
 
-.footerPictA {
+/*.footerPictA {
   width: 40px;
   height: 50px;
   padding: 0px;
   image-resolution: 200px;
   
-}
+}*/
 
 .ourPartner {
   background-color: #b5d8c3;
