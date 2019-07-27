@@ -24,14 +24,13 @@ header {
 
 .picA {
   width: 20%;
-  height: 20%;
 }
 
 .LiMenu {
   display: block;
   font-size: 20px;
   float: right;
-  width: 12%;
+  padding: 10px;
 }
 
 /*main*/
@@ -54,6 +53,7 @@ flex-wrap: wrap;
 
 .picMain {
   width: 454px;
+  height: auto;
   margin: 30px;
   image-resolution: 60px;
 
@@ -61,7 +61,6 @@ flex-wrap: wrap;
 
 .mainDiv2 {
   width: 454px;
-  /*height: 280px;*/
   margin: 30px;
 }
 
