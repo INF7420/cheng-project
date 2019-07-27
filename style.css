@@ -11,6 +11,10 @@ header {
   max-width: 1200px;
   background-color: #d1dac0;
   margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+ align-items: center;
+  
 }
 
 .headerA ul {
@@ -36,18 +40,24 @@ header {
   display: flex;
   max-width: 960px;
   margin: 2em auto;
+  display: flex;
+flex-wrap: wrap;
+
   
 }
 
 .mainDiv1 {
   color: #d8dac8;
   font-size: 10px;
+
 }
 
 .picMain {
-  width: 400px;
-  height: 300px;
+  width: 454px;
+  height: 280px;
   margin: 30px;
+  image-resolution: 60px;
+
 }
 
 .mainDiv2 {
@@ -57,7 +67,7 @@ header {
 }
 
 .mainDiv2 {
-  color: #002f51;
+  color: rgb(0, 47, 81);
   font-size: 30px;
   margin: 60px 90px;
 }
@@ -82,9 +92,10 @@ header {
 }
 
 .footerPictA {
-  width: 200px;
-  height: 300px;
+  width: 40px;
+  height: 50px;
   padding: 0px;
+  image-resolution: 200px;
   
 }
 
@@ -129,12 +140,7 @@ header {
   color: #b7aec0;
 }
 
-.AboutUsHead {
-  background-color: darksalmon;
-  color: darkgreen;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: small;
-}
+
 
 /*claims.html */
 .claimHead {
@@ -145,7 +151,7 @@ header {
 
 .claimsContact {
   display: inline-block;
-  color: #89b1b1;
+  color: black;
   font-family: "Times New Roman", Times, serif;
   font-size: 100%;
   break-inside: auto;
@@ -155,9 +161,10 @@ header {
 
 /*spcialist-area.html */
 .specialistMain {
-  color: #8a2be2;
+  color: black;
   font-family: "Times New Roman", Times, serif;
-  font-size: 36%;
+  font-size: 200%;
+  float: left;
 }
 
 label {
@@ -184,7 +191,7 @@ width: 70%;
   [type="submit" ] { 
     background: #c45d7c;
     color: aqua;
-    width: 77%;
+    width: 85%;
     font-size: 1.0em;
     font-weight: 500;
     text-transform: uppercase;
@@ -220,4 +227,9 @@ margin: -1em 0 1.5em;
       width: 50%;
       margin: 3em auto;
     }
+  }
+
+  .travelfooter {
+display: flex
+
   }
