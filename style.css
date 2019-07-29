@@ -8,12 +8,13 @@
 /*header */
 header {
   border: 2px solid;
-  max-width: 1200px;
+  width: auto;
   background-color: #d1dac0;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
  align-items: center;
+
   
 }
 
@@ -34,45 +35,69 @@ header {
 }
 
 /*main*/
-
-.main {
-  display: flex;
-  max-width: 960px;
-  margin: 2em auto;
-  display: flex;
-flex-wrap: wrap;
-
-  
+.mainContactUs {
+  flex-wrap: wrap; 
+  max-width: 300;
+  height: auto;
 }
+
 
 .mainDiv1 {
-  color: #d8dac8;
-  font-size: 10px;
-
+  color: black;
+  font-size: 20px;
+  font-display: black;
 }
+
+
+.mainDiv2specialist{
+color: aquamarine;
+}
+
 
 .picMain {
   width: 454px;
   height: auto;
   margin: 30px;
   image-resolution: 60px;
-
 }
 
 .mainDiv2 {
   width: 454px;
-  margin: 30px;
 }
 
 .mainDiv2 {
   color: rgb(0, 47, 81);
   font-size: 30px;
-  margin: 60px 90px;
 }
 
 .home-links {
   text-align: center;
 }
+
+.home-linksSpecialist {
+  text-align: center;
+  text-emphasis: bold;
+ text-decoration-color: #7fffd4;
+}
+
+
+
+.h1Specialist {
+font-weight: 700;
+font-size: 150%;
+
+color: black;
+
+}
+
+.pSpecialist {
+  font-size: 15%;
+  color: rgb(42, 165, 155);
+
+}
+
+
+
 
 .HomeMainMenu {
   list-style: none;
@@ -81,12 +106,84 @@ flex-wrap: wrap;
   padding: 0px;
 }
 
+
+
+
+
+.footerClaims {
+  background-color:#b5d8c3;
+  color: #2B2249;
+  height: 300px;
+  bottom: 0;
+  width: auto;
+  margin: 0%;
+}
+
+
+.footerCar {
+  background-color:#b5d8c3;
+  color: #2B2249;
+  height: 300px;
+  bottom: 0;
+  margin: -2.2%;
+}
+
+
+.mainDiv2PersonalAccident
+.{
+font-size: 30%;
+font-display: #0000ff;
+}
+
+
+.mainDiv2Travel
+.{
+font-size: 30%;
+font-display: #0000ff;
+}
+
+.mainDiv2HomeContent
+.{
+font-size: 30%;
+font-display: blue;
+}
+
+.mainDiv2Car
+.{
+font-size: 30%;
+font-display: blue;
+}
+
+
+.footerHomeContent {
+  background-color:#b5d8c3;
+  color: #2B2249;
+  height: 300px;
+  bottom: 0;
+  margin: -1.2%;
+}
+
+
+.footerContactUs {
+  background-color:#b5d8c3;
+  color: #2B2249;
+  height: 300px;
+  bottom: 0;
+  margin: -1.2%;
+}
+
+
+
+
+
+
 /*footer*/
 .footer {
   background-color:#b5d8c3;
   color: #2B2249;
   height: 300px;
   bottom: 0;
+  margin: -1.2%;
 }
 
 /*.footerPictA {
@@ -107,18 +204,21 @@ flex-wrap: wrap;
   }
 
 .footerClassProf {
-  list-style: none;
-  display: inline;
+  font-family: "Times New Roman", Times, serif;
+  display: flexbox;
+  flex-direction: row;
+  justify-content: right;
   font-size: 15px;
-  margin-left: 2%;
-  margin-right: 20%;
-  vertical-align: middle;
+  margin-left: 20%;
+  margin-right: 2%;
 }
 
 .footerClassTerm {
   color: #292929;
   font-family: "Times New Roman", Times, serif;
-  display: inline;
+  display: flexbox;
+  flex-direction: row;
+  justify-content: right;
   font-size: 10px;
   margin-left: 20%;
   margin-right: 2%;
@@ -128,6 +228,8 @@ flex-wrap: wrap;
   color:   #570b0b;
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
+  display: flexbox;
+  justify-content: left;
   float: right;
   margin-left: 20%;
   margin-right: 2%;
@@ -148,17 +250,17 @@ flex-wrap: wrap;
 }
 
 .claimsContact {
-  display: inline-block;
+  display: inline;
   color: black;
   font-family: "Times New Roman", Times, serif;
   font-size: 100%;
   break-inside: auto;
-  width: 200px;
+  height: 100px;
   overflow: hidden;
 }
 
 /*spcialist-area.html */
-.specialistMain {
+.mainSpecialist {
   color: black;
   font-family: "Times New Roman", Times, serif;
   font-size: 200%;
@@ -189,7 +291,7 @@ width: 70%;
   [type="submit" ] { 
     background: #c45d7c;
     color: aqua;
-    width: 85%;
+    width: 76%;
     font-size: 1.0em;
     font-weight: 500;
     text-transform: uppercase;
@@ -219,13 +321,15 @@ color: #c45d7c;
 margin: -1em 0 1.5em;
 }
 
-  @media screen and (min-width: 1065px) {
-    form {
+@media screen and (min-width: 1065px) {
+  form {
 
-      width: 50%;
-      margin: 3em auto;
-    }
+    width: 50%;
+    margin: 3em auto;
   }
+}
+
+  
 
   .travelfooter {
 display: flex
