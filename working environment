@@ -615,3 +615,67 @@ New codes
 
 
   }
+
+
+original 
+
+  @media screen and (min-width: 1065px) {
+  form {
+
+    width: 50%;
+    margin: 3em auto;
+  }
+
+
+
+  @media screen and (max-width: 768px) {
+ 
+
+  .footer {
+    background-color:#d81e1e;
+    color: #2B2249;
+    height: 300px;
+    bottom: 0;
+    margin: -1.2%;
+  }
+
+  
+
+
+ .picMain img {
+   position: relative;
+   width: 20%;
+   left: -300%
+  }
+
+  .headerA ul {
+ 
+    float: none;
+    
+}
+
+
+@media screen and (min-width: 1065px)  {
+  form {
+
+    width: 50%;
+    margin: 3em auto;
+  }
+}
+
+@media screen and (min-width: 1065px) {
+  form {
+
+    width: 50%;
+    margin: 3em auto;
+  }
+
+
+
+
+    .LiMenu {
+    display: block;
+    font-size: 10px;
+    float: center;
+    width: 46%;
+  
