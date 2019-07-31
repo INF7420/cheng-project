@@ -404,3 +404,278 @@ float: right;
 
  <img class="picA" src="images/yourlogohere.jpg" alt="company logo ONE">
         <img class="picA" src="images/company-name.jpg" alt="company name TWO">
+
+
+
+       .AboutUsHead {
+  background-color: darksalmon;
+  color: darkgreen;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: small;
+} 
+
+delete from about - us
+
+ <div>
+        <h3>
+          <p class="AboutUShomePageMktg">Home Page Marketing Message</p>
+        </h3>
+      </div>
+      <div class="home-links">
+            
+            <ul>
+              <li class="HomeMainMenu"> <a href="why-us.html">Why CTKCo.</a></li>
+              <li  class="HomeMainMenu"><a href="our-team.html">Our Team</a></li>
+              <li  class="HomeMainMenu"><a href="our-partner.html">Our Partners</a></li>
+            </ul>
+      </div>
+
+
+728
+
+.footerClassProf {
+  list-style: none;
+  display: inline;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif
+  margin-left: 2%;
+  margin-right: 20%;
+  vertical-align: middle;
+}
+
+.footerClassTerm {
+  color: #292929;
+  font-family: "Times New Roman", Times, serif;
+  display: inline;
+  font-size: 10px;
+  margin-left: 20%;
+  margin-right: 2%;
+}
+
+.footerCTK {
+  color:   #570b0b;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  display: inline;
+  float: right;
+  margin-left: 20%;
+  margin-right: 2%;
+}
+
+about us 
+728
+1:45
+
+ <main class="main">
+      <div class="main-wrapper">
+          <img class="picMain" src="images/aboutUs.jpg" alt=" About us picture">
+          <div>
+            <h1>About-us </h1>
+            <p>We are an independent broker with specialist experience in the Asia Pacific market. Our unique partnership with a niche broker in London and San Francisco and an medical consultant operating throughout Asia gives us a global reach across Asia and Europe. We are compact, agile and international - an independent business with a small team of specialist brokers offering a truly bespoke service. </p>
+          </div>
+      </div>
+          <div class="home-links">
+              <ul>
+                <li class="HomeMainMenu"> <a href="why-us.html">Why CTKCo.</a></li>
+                <li class="HomeMainMenu" ><a href="our-team.html">Our Team</a></li>
+                <li class="HomeMainMenu" ><a href="our-partners.html">Our Partners</a></li>
+              </ul>
+          </div>
+    </main>
+  </div>
+
+
+chnges  log 1
+1:59
+
+
+.mainDiv2 {
+  width: 454px;
+  margin: 30px;
+}
+
+.mainDiv2 {
+  color: rgb(0, 47, 81);
+  font-size: 30px;
+  margin: 60px 90px;
+}
+
+
+  <p class="claimsContact">
+        
+        <p>Jim Cheng
+          </p>
+
+            <p>jim cheng 5 </p>
+            <p>Telephone: 415 386 6449</p>
+            <p>jim@ctkco.com</p>
+
+
+
+             </p>
+          <p class="claimsContact"> </p>
+            <p>Telephone: 415 386 6449 and email at </p>
+            <p>jim@ctkco.com xx</p>
+
+
+              display: flex;
+  max-width: 960px;
+  margin: 2em auto;
+  display: flex;
+
+
+  /*home.html */
+/*header */
+header {
+  border: 2px solid;
+  max-width: 1200px;
+  background-color: #d1dac0;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+ align-items: center;
+
+
+
+ .main {
+flex-wrap: wrap; 
+}
+
+
+
+  @media screen and (min-width: 1065px) {
+    form {
+
+      width: 50%;
+      margin: 3em auto;
+    }
+  }
+
+New codes
+
+   .headerA {
+      display: flex;
+    
+    }
+
+     .site-name {
+      flex: 1 0 auto;
+
+    }
+
+    .main-nav{
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      opacity: 1;
+
+    }
+
+     .site-name {
+      flex: 1 0 auto;
+
+    }
+
+
+    .main {
+
+      padding-top 2rem;
+      display: flex;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    
+  @media screen and (min-width: 768px)   {
+    form {
+
+      width: 50%;
+      margin: 3em auto;
+    }
+
+    .main {
+
+      padding-top 2rem;
+      display: flex;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+
+   
+
+    .LiMenu{
+      display: inline;
+    }
+
+   
+
+
+  }
+
+
+original 
+
+  @media screen and (min-width: 1065px) {
+  form {
+
+    width: 50%;
+    margin: 3em auto;
+  }
+
+
+
+  @media screen and (max-width: 768px) {
+ 
+
+  .footer {
+    background-color:#d81e1e;
+    color: #2B2249;
+    height: 300px;
+    bottom: 0;
+    margin: -1.2%;
+  }
+
+  
+
+
+ .picMain img {
+   position: relative;
+   width: 20%;
+   left: -300%
+  }
+
+  .headerA ul {
+ 
+    float: none;
+    
+}
+
+
+@media screen and (min-width: 1065px)  {
+  form {
+
+    width: 50%;
+    margin: 3em auto;
+  }
+}
+
+@media screen and (min-width: 1065px) {
+  form {
+
+    width: 50%;
+    margin: 3em auto;
+  }
+
+
+
+
+    .LiMenu {
+    display: block;
+    font-size: 10px;
+    float: center;
+    width: 46%;
+  
